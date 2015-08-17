@@ -9,7 +9,7 @@
 #import <UIKit/UIKit.h>
 #import <UIImageView+WebCache.h>
 
-@interface UIImageView (Fade)
+@interface UIImageView (Fade) <SDWebImageManagerDelegate>
 - (void)setWebImageWithUrlStr:(NSString *)urlstr;
 
 - (void)setWebImageWithUrlStr:(NSString *)urlstr placeHolder:(UIImage *)image;
